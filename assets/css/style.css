@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding-left: 25%;
+  padding-right: 25%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header {
+  background-color: #1c1b1b;
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 50px;
+}
+
+.intro {
+  margin: auto;
+  margin-left: 20px;
+}
+.intro p {
+  font-size: 20px;
+}
+
+.intro h1 {
+  font-family  :'Times New Roman', Times, serif;
+}
+.hero img {
+  width: 150px;
+  border-radius: 50%;
+}
+.bio p {
+  font-size: 15px;
+  color: grey;
+}
+
+
+
+@media screen and (max-width: 680px) {
+  body {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+}
