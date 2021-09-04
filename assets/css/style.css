@@ -16,9 +16,17 @@ a {
   color: rgb(52, 133, 255);
 }
 
+ul {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+}
+
 .main {
   width: 800px;
-  margin: auto;
+  margin: 20px auto;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -26,11 +34,6 @@ a {
 
 .main:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
-}
-
-.container {
-  display: flex;
-  margin: auto;
 }
 
 .main .top-section {
@@ -83,12 +86,18 @@ a {
   padding: 2px;
 }
 
+.container {
+  display: flex;
+  margin: auto;
+}
+
 .container li {
   list-style-type: square;
 }
 
 .container .left-section {
-  padding: 10px;
+  padding: 2%;
+  flex: 1;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -105,12 +114,20 @@ a {
 }
 
 .experience {
-  padding-bottom: 10px;
+  padding-bottom: 15px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .title {
   font-size: 16px;
   font-weight: bold;
+}
+
+.subtitle{
+  font-size: 14px;
+  font-weight: bold;
+ 
 }
 
 .institute {
@@ -137,7 +154,8 @@ a {
 }
 
 .container .right-section {
-  padding: 10px;
+  padding: 2%;
+  flex: 1;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -163,6 +181,10 @@ a {
   font-size: 12px;
 }
 
+.project{
+  padding-bottom: 10px;
+}
+
 .achievement {
   padding-bottom: 10px;
 }
@@ -182,23 +204,22 @@ a {
   }
 
   .main .top-section .about {
+    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
   }
   .main .top-section .about img {
     margin: auto;
+    width: 150px;
   }
   .container {
-    width: 90%;
+    width: 100%;
     flex-direction: column;
+    flex-wrap: wrap;
   }
 }
 
 @media screen and (max-width: 480) {
-  .container {
-    width: 100%;
-  }
-
   .main .top-section .reach-me {
     flex-wrap: wrap;
   }

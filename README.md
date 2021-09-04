@@ -36,6 +36,10 @@ Do not use tables in the HTML.
 
 - Responsive
 
+## Git Workflow
+
+> dev -> main -> release
+
 ## Screenshot
 
 ![](assets/ss/cv.png)
