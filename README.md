@@ -1,5 +1,3 @@
-#cv
-
 ## Intro
 
 **cv** is a static website that refers to the CV of [Mehedi Hasan Shifat](https://www.github.com/jspw) (me :D). It was my first task as an **Intern Software Engineer** in [Dynamic Solution Innovators](http://dsinnovators.com/) (one of the best software companies in Bangladesh) as its our training period.
@@ -8,7 +6,7 @@
 
 ## About Task
 
-The task was given  by our CTO [**Mojahedul Haque Abul Hasanat**](http://dsinnovators.com/masum.html).
+The task was given by our CTO [**Mojahedul Haque Abul Hasanat**](http://dsinnovators.com/masum.html).
 
 ### Detail
 
