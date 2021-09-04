@@ -8,7 +8,7 @@
 
 ## About Task
 
-The task was given by the CTO **Mojahedul Haque Abul Hasanat**.
+The task was given  by our CTO [**Mojahedul Haque Abul Hasanat**](http://dsinnovators.com/masum.html).
 
 ### Detail
 
@@ -31,7 +31,8 @@ Do not use tables in the HTML.
 ## Technology used
 
 - Raw html
-- Raw css, css-flexbox
+- Raw css
+- css-flexbox
 
 ## Feature
 
