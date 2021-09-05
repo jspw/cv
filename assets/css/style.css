@@ -1,8 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
-    sans-serif;
+  font-family : 'Open Sans', sans-serif;
   font-size: 12px;
 }
 
@@ -109,8 +108,6 @@ ul {
 
 .experience {
   padding-bottom: 15px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 .title {
