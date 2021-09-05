@@ -1,14 +1,8 @@
-/* * {
-  margin: 0;
-  padding: 0;
-} */
-
 body {
   margin: 0;
   padding: 0;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
     sans-serif;
-  /* background-color: #ccc7c7; */
   font-size: 12px;
 }
 
@@ -26,7 +20,7 @@ ul {
 
 .main {
   width: 800px;
-  margin: 20px auto;
+  margin: 2% auto;
   background-color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -124,10 +118,9 @@ ul {
   font-weight: bold;
 }
 
-.subtitle{
+.subtitle {
   font-size: 14px;
   font-weight: bold;
- 
 }
 
 .institute {
@@ -181,7 +174,7 @@ ul {
   font-size: 12px;
 }
 
-.project{
+.project {
   padding-bottom: 10px;
 }
 
@@ -199,14 +192,17 @@ ul {
 
 @media screen and (max-width: 800px) {
   .main {
-    margin: auto;
     width: 100%;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   .main .top-section .about {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .main .top-section .about img {
     margin: auto;
@@ -219,8 +215,17 @@ ul {
   }
 }
 
-@media screen and (max-width: 480) {
+@media screen and (max-width: 320px) {
   .main .top-section .reach-me {
+    flex: content;
     flex-wrap: wrap;
+    align-items: space-around;
+  }
+  .main .top-section .reach-me li {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+
   }
 }
