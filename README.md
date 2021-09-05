@@ -38,7 +38,7 @@ Do not use tables in the HTML.
 
 ## Git Workflow
 
-> dev -> main -> release
+> dev / dev-home ----> stage --->  main ----> release
 
 ## Screenshot
 
