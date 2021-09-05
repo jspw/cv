@@ -1,53 +1,228 @@
 body {
   margin: 0;
-  padding-left: 25%;
-  padding-right: 25%;
-  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  font-family : 'Open Sans', sans-serif;
+  font-size: 12px;
 }
 
-.header {
-  background-color: #1c1b1b;
+a {
+  color: rgb(52, 133, 255);
+}
+
+ul {
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 20px;
+}
+
+.main {
+  width: 800px;
+  margin: 2% auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.main:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.main .top-section {
+}
+
+.main .top-section .about {
+  background-color: #191919;
+  color: aliceblue;
   display: flex;
-  flex: 2;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  color: white;
-  padding: 50px;
 }
 
-.intro {
-  margin: auto;
-  margin-left: 20px;
-}
-.intro p {
-  font-size: 20px;
-}
-
-.intro h1 {
-  font-family  :'Times New Roman', Times, serif;
-}
-.hero img {
-  width: 150px;
+.main .top-section .about img {
+  width: 100px;
   border-radius: 50%;
+  padding: 10px;
 }
-.bio p {
-  font-size: 15px;
+
+.main .top-section .about .intro {
+  padding: 10px;
+}
+
+.main .top-section .about .hero {
+}
+
+.main .top-section .reach-me {
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  color: rgb(237, 232, 232);
+}
+
+.reach-me li {
+  list-style: none;
+  padding: 2px;
+}
+
+.reach-me i {
+  padding: 2px;
+}
+
+.reach-me a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+}
+
+.container {
+  display: flex;
+  margin: auto;
+}
+
+.container li {
+  list-style-type: square;
+}
+
+.container .left-section {
+  padding: 2%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.container h2 {
+  text-decoration-line: underline;
+  text-underline-offset: 5px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.experience {
+  padding-bottom: 15px;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.subtitle {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.institute {
+  font-size: 16px;
+  padding-bottom: 2px;
+}
+
+.institute-info {
+  color: #9b9696;
+  font-size: 10px;
+  padding-top: 5px;
+}
+
+.institute-period {
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+  font-size: 10px;
+}
+
+.experience .tasks {
+  padding-top: 5px;
+  font-style: italic;
+}
+
+.container .right-section {
+  padding: 2%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.skills {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.skills div {
+  padding: 5px;
+  background-color: #191919;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+}
+
+.organizations .position {
+  color: grey;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.project {
+  padding-bottom: 10px;
+}
+
+.achievement {
+  padding-bottom: 10px;
+}
+
+.language {
+  padding-bottom: 10px;
+}
+
+.language i {
   color: grey;
 }
 
-
-
-@media screen and (max-width: 680px) {
-  body {
-    padding-left: 5%;
-    padding-right: 5%;
+@media screen and (max-width: 800px) {
+  .main {
+    width: 100%;
+    margin: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
   }
 
-  .header {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .main .top-section .about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
   }
+  .main .top-section .about img {
+    margin: auto;
+    width: 150px;
+  }
+  .container {
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
 
-  
+@media screen and (max-width: 320px) {
+  .main .top-section .reach-me {
+    flex: content;
+    flex-wrap: wrap;
+    align-items: space-around;
+  }
+  .main .top-section .reach-me li {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+
+  }
 }
