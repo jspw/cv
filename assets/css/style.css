@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family : 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 12px;
 }
 
@@ -212,17 +212,15 @@ ul {
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 380px) {
   .main .top-section .reach-me {
     flex: content;
     flex-wrap: wrap;
     align-items: space-around;
   }
   .main .top-section .reach-me li {
-
     display: flex;
     flex-direction: row;
-    justify-content: center
-
+    justify-content: center;
   }
 }
